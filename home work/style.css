@@ -1,0 +1,153 @@
+.tadle {
+    display: flex;
+    width: 100%;
+}
+
+.thead {
+    display: flex;
+    background-color: rgb(114, 114, 153);
+    font-weight: bold;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 3px;
+}
+
+.pthead {
+    display: flex;
+    border: 1px solid black;
+    flex-grow: 2;
+    justify-content: space-around;
+    padding: 0;
+    margin: 1px;
+    width: 431px;
+}
+
+.tbody {
+    display: flex;
+    background-color: rgb(114, 114, 153);
+    font-weight: bold;
+    flex-direction: column;
+    padding: 3px;
+}
+
+.html {
+    display: flex;
+    padding: 0;
+    margin: 1px;
+    border: 1px solid black;
+    text-align: left;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.tbody2 {
+    display: flex;
+    background-color: rgb(114, 114, 153);
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 3px;
+}
+
+.ptbody {
+    display: flex;
+    border: 1px solid black;
+    flex-grow: 2;
+    justify-content: space-around;
+    padding: 0;
+    margin: 1px;
+    width: 431px;
+}
+
+.tbody3 {
+    display: flex;
+    background-color: rgb(114, 114, 153);
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 3px;
+}
+
+.tbody4 {
+    display: flex;
+    background-color: rgb(114, 114, 153);
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 3px;
+}
+
+.tfoot {
+    display: flex;
+    background-color: rgb(114, 114, 153);
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 3px;
+}
+
+.ptfoot {
+    display: flex;
+    border: 1px solid black;
+    flex-grow: 2;
+    justify-content: space-around;
+    padding: 0;
+    margin: 1px;
+    width: 431px;
+}
+
+.all {
+    font-weight: bold;
+}
+
+.br {
+    margin-top: 3%;
+    margin-block-end: 3%;
+}
+
+.h1 {
+    text-align: center;
+}
+
+* {
+    text-align: center;
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style-position: inside;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-evenly;
+    background-color:rgb(237, 244, 245);
+}
+
+nav, .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(237, 244, 245);
+    width: 100%;
+    padding: 10px;
+}
+
+.header-btn {
+    color:rgb(218, 33, 147);
+    background-color:rgb(255, 227, 251);
+    border-radius: 50px;
+}
+
+a:hover {
+    background-color: rgb(168, 243, 125);
+}
+
+img {
+    display: inline-flex;
+    width: 20px;
+}
