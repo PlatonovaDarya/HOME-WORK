@@ -5,7 +5,7 @@
 
 .thead {
     display: flex;
-    background-color: rgb(114, 114, 153);
+    background-color: rgb(218, 118, 179);
     font-weight: bold;
     text-align: center;
     justify-content: space-around;
@@ -31,7 +31,7 @@
     padding: 3px;
 }
 
-.html {
+.html, .css, .js {
     display: flex;
     padding: 0;
     margin: 1px;
@@ -39,9 +39,10 @@
     text-align: left;
     flex-direction: column;
     justify-content: left;
+    background-color: rgb(221, 172, 202);
 }
 
-.tbody2 {
+.tbody2, .tbody3, .tbody4, .tbody5, .tbody6, .tbody7 {
     display: flex;
     background-color: rgb(114, 114, 153);
     text-align: center;
@@ -60,27 +61,9 @@
     width: 431px;
 }
 
-.tbody3 {
-    display: flex;
-    background-color: rgb(114, 114, 153);
-    text-align: center;
-    justify-content: space-around;
-    flex-direction: row;
-    padding: 3px;
-}
-
-.tbody4 {
-    display: flex;
-    background-color: rgb(114, 114, 153);
-    text-align: center;
-    justify-content: space-around;
-    flex-direction: row;
-    padding: 3px;
-}
-
 .tfoot {
     display: flex;
-    background-color: rgb(114, 114, 153);
+    background-color: rgb(218, 118, 179);
     text-align: center;
     justify-content: space-around;
     flex-direction: row;
@@ -150,4 +133,8 @@ a:hover {
 img {
     display: inline-flex;
     width: 20px;
+}
+
+.frontend {
+    width: 400px;
 }
